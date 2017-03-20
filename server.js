@@ -8,7 +8,7 @@ app.set('port', (process.env.PORT || 5000));
 //use static files
 app.use(express.static(path.join(__dirname, 'public')));
 //express routes
-app.get('/app', function(req, res){
+app.get('/', function(req, res){
   res.sendFile(path.join(__dirname, 'views/app.html'));
 });  
 app.get('/app1', function(req, res){
@@ -23,6 +23,10 @@ app.get('/app3', function(req, res){
 app.get('/app5', function(req, res){
   res.sendFile(path.join(__dirname, 'views/app5.html'));
 });
+app.get('/app', function(req, res){
+  res.sendFile(path.join(__dirname, 'views/app.html'));
+});
+
 
 
 //express server listen
