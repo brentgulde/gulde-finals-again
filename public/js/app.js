@@ -15,9 +15,14 @@ $.ajax({
 }).done(function(res){
 console.log(res);
 let html = `
+<center>
 <h1>${res.Title } </h1> 
 <h3>${res.Plot}</h3>
 <img src="${res.Poster}"/>
+<h1>${res.Year} </h1>
+<h1>${res.Language} </h1>
+<h1>${res.Actors} </h1>
+</center>
 `;
 $('#app1').html(html);
 });
@@ -40,9 +45,12 @@ $.ajax({
 }).done(function(res){
 console.log(res);
 let html = `
-<center>${res.Title} </center> 
+<h1>${res.Title } </h1> 
 <h3>${res.Plot}</h3>
 <img src="${res.Poster}"/>
+<h1>${res.Year} </h1>
+<h1>${res.Language} </h1>
+<h1>${res.Actors} </h1>
 `;
 $('#app2').html(html);
 });
@@ -68,6 +76,9 @@ let html = `
 <h1>${res.Title } </h1> 
 <h3>${res.Plot}</h3>
 <img src="${res.Poster}"/>
+<h1>${res.Year} </h1>
+<h1>${res.Language} </h1>
+<h1>${res.Actors} </h1>
 `;
 $('#app3').html(html);
 });
@@ -93,6 +104,9 @@ let html = `
 <h1>${res.Title } </h1> 
 <h3>${res.Plot}</h3>
 <img src="${res.Poster}"/>
+<h1>${res.Year} </h1>
+<h1>${res.Language} </h1>
+<h1>${res.Actors} </h1>
 `;
 $('#app4').html(html);
 });
@@ -117,6 +131,9 @@ let html = `
 <h1>${res.Title } </h1> 
 <h3>${res.Plot}</h3>
 <img src="${res.Poster}"/>
+<h1>${res.Year} </h1>
+<h1>${res.Language} </h1>
+<h1>${res.Actors} </h1>
 `;
 $('#app5').html(html);
 });
