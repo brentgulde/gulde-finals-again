@@ -7,7 +7,7 @@ $('#app1').html(`
 setTimeout(function(){
 x();	
 
-}, 3000);
+}, 777);
 
 function x(){
 $.ajax({
@@ -37,7 +37,7 @@ $('#app2').html(`
 setTimeout(function(){
 y();	
 
-}, 3000);
+}, 777);
 
 function y(){
 $.ajax({
@@ -65,7 +65,7 @@ $('#app3').html(`
 setTimeout(function(){
 z();	
 
-}, 3000);
+}, 777);
 
 function z(){
 $.ajax({
@@ -93,7 +93,7 @@ $('#app4').html(`
 setTimeout(function(){
 a();	
 
-}, 3000);
+}, 777);
 
 function a(){
 $.ajax({
@@ -120,7 +120,7 @@ $('#app5').html(`
 setTimeout(function(){
 a();	
 
-}, 3000);
+}, 777);
 
 function a(){
 $.ajax({
