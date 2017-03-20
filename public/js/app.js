@@ -85,33 +85,6 @@ $('#app3').html(html);
 
 }
 
-$('#app4').html(`
-
-<div class="loader"></div>
-
-	`);
-setTimeout(function(){
-a();	
-
-}, 777);
-
-function a(){
-$.ajax({
-	url:"http://www.omdbapi.com/?t=x-men first class"
-}).done(function(res){
-console.log(res);
-let html = `
-<h1>${res.Title } </h1> 
-<h3>${res.Plot}</h3>
-<img src="${res.Poster}"/>
-<h1>${res.Year} </h1>
-<h1>${res.Language} </h1>
-<h1>${res.Actors} </h1>
-`;
-$('#app4').html(html);
-});
-
-}
 $('#app5').html(`
 
 <div class="loader"></div>
