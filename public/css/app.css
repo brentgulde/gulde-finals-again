@@ -2,8 +2,8 @@
 	position: absolute;
 	left: 45%;
 	top: 45%;
-    border: 16px solid yellow; /* Light grey */
-    border-top: 16px solid blue; /* Blue */
+    border: 16px solid gray; 
+    border-top: 16px solid blue; 
     border-radius: 50%;
     width: 120px;
     height: 120px;
