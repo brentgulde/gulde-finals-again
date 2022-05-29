@@ -11,7 +11,7 @@ x();
 
 function x(){
 $.ajax({
-	url:"http://www.omdbapi.com/?t=x-men"
+	url:"http://www.omdbapi.com/?t=x-men&apikey=274d5566"
 }).done(function(res){
 console.log(res);
 let html = `
@@ -43,7 +43,7 @@ y();
 
 function y(){
 $.ajax({
-	url:"http://www.omdbapi.com/?t=x-men 2"
+	url:"http://www.omdbapi.com/?t=x2&apikey=274d5566"
 }).done(function(res){
 console.log(res);
 let html = `
@@ -75,7 +75,7 @@ z();
 
 function z(){
 $.ajax({
-	url:"http://www.omdbapi.com/?t=x-men+the+last+stand"
+	url:"http://www.omdbapi.com/?t=x-men+the+last+stand&apikey=274d5566"
 }).done(function(res){
 console.log(res);
 let html = `
@@ -107,7 +107,7 @@ a();
 
 function a(){
 $.ajax({
-	url:"http://www.omdbapi.com/?t=x-men apocalypse"
+	url:"http://www.omdbapi.com/?t=x-men+apocalypse&apikey=274d5566"
 }).done(function(res){
 console.log(res);
 let html = `
